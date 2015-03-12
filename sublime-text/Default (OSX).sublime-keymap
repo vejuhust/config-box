@@ -1,0 +1,6 @@
+[
+    { "keys": ["ctrl+alt+r"], "command": "reindent" },
+    { "keys": ["f8"], "command": "permute_lines", "args": {"operation": "unique"} },
+    { "keys": ["shift+f5"], "command": "sort_lines", "args": {"reverse": true} },
+    { "keys": ["ctrl+shift+f5"], "command": "sort_lines", "args": {"case_sensitive": true, "reverse": true} }
+]
