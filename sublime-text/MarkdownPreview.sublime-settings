@@ -1,0 +1,13 @@
+{
+	"build_action": "browser",
+	"enable_autoreload": false,
+	"github_mode": "gfm",
+	"markdown_filetypes":
+	[
+		".markdown",
+		".md",
+		".mdown"
+	],
+	"parser": "github",
+	"trim_trailing_white_space_on_save": false,
+}
