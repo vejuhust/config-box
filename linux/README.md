@@ -61,3 +61,18 @@ apt-get install --assume-yes --force-yes vim git screen unzip p7zip-full iftop v
 apt-get install --assume-yes --force-yes gcc g++ build-essential python-dev python-pip python-setuptools
 ```
 
+
+## Shortcuts
+
+Append the following to `~/.bashrc` if it isn't there:
+```bash
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+```
+
+Overwrite local `~/.bash_aliases`:
+```bash
+curl -s https://github.com/vejuhust/config-box/blob/master/linux/README.md > ~/.bash_aliases
+```
+
