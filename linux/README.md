@@ -62,9 +62,9 @@ apt-get install --assume-yes --force-yes gcc g++ build-essential python-dev pyth
 ```
 
 
-## Shortcuts
+## Aliases
 
-Append the following to `~/.bashrc` if it isn't there:
+Append the following lines to `~/.bashrc` if it isn't there:
 ```bash
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
@@ -73,6 +73,6 @@ fi
 
 Overwrite local `~/.bash_aliases`:
 ```bash
-curl -s https://github.com/vejuhust/config-box/blob/master/linux/README.md > ~/.bash_aliases
+curl -s https://raw.githubusercontent.com/vejuhust/config-box/master/linux/bash_aliases.sh > ~/.bash_aliases
 ```
 
