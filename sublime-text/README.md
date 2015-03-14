@@ -6,6 +6,8 @@ Official Website: https://www.sublimetext.com/3
 ## Package Control
 Installation: https://packagecontrol.io/installation
 
+To open the Package Control Command Pallete, press <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>⇧</kbd><kbd>P</kbd> (OS X). All Package Control commands begin with **Package Control:**.
+
 ## Useful Packages
 
 ### [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements)
