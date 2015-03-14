@@ -14,7 +14,7 @@ To open the Package Control Command Pallete, press <kbd>Ctrl</kbd><kbd>Shift</kb
 Enhancements to Sublime Text sidebar. Files and folders.
 
 ### [SublimeCodeIntel](https://packagecontrol.io/packages/SublimeCodeIntel)
-Full-featured code intelligence and smart autocomplete engine.
+Full-featured code intelligence and smart auto-complete engine.
 
 ### [Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview)
 Markdown preview and build plugin for Sublime Text 2/3.
@@ -23,7 +23,7 @@ Markdown preview and build plugin for Sublime Text 2/3.
 Powerful Markdown package for Sublime Text with better syntax understanding and good color schemes.
 
 ### [JsFormat](https://packagecontrol.io/packages/JsFormat)
-Javascript formatting for Sublime Text 2 & 3
+JavaScript formatting for Sublime Text 2 & 3
 
 ### [IMESupport](https://packagecontrol.io/packages/IMESupport)
-Resolve a problem that IME composition window can not be displayed correctly on Windows. For Chinese IME, [Bing Pinyin](http://bing.msn.cn/pinyin/) works well with this plugin.
+Resolve a problem that IME composition window can not be displayed correctly on Windows. For Chinese IME, [微软必应输入法](http://bing.msn.cn/pinyin/) works well with this plugin.
