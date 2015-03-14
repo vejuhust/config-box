@@ -5,3 +5,5 @@ Settings and configurations of my workspace or devbox
 * Sublime Text 3
 * git
 * Linux Bash
+* Windows
+* Visual Studio
