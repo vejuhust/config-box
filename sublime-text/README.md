@@ -3,6 +3,10 @@
 ## Download
 Official Website: https://www.sublimetext.com/3
 
-## Package
-Install **Package Control**: https://packagecontrol.io/installation
+## Package Control
+Install: https://packagecontrol.io/installation
 
+## Useful Packages
+
+### [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements)
+Enhancements to Sublime Text sidebar. Files and folders.
