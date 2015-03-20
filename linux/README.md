@@ -22,6 +22,11 @@ Restart the service:
 sudo service ssh restart
 ```
 
+Rename this server if necessary:
+```bash
+vim /etc/hostname
+```
+
 ### Password-free Login
 
 #### OS X : bash

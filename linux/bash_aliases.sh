@@ -1,3 +1,5 @@
+export TZ='Asia/Shanghai'
+
 function pwdgen() {
     if [ $# -eq 0 ];
     then
