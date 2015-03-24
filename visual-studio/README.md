@@ -24,3 +24,8 @@ Enrich your text editing experience with Rainbow Braces and more.
 ### [Productivity Power Tools 2013](https://visualstudiogallery.msdn.microsoft.com/dbcb8670-889e-4a54-a226-a48a15e4cace?SRC=VSIDE)
 A set of extensions to Visual Studio 2013 Professional (and above) which improves developer productivity.
 
+### [GhostDoc](http://submain.com/products/ghostdoc.aspx)
+GhostDoc is a Visual Studio extension that automatically generates XML documentation comments for methods and properties based on their type, parameters, name, and other contextual information.
+
+### [ClaudiaIDE](https://visualstudiogallery.msdn.microsoft.com/9ba50f8d-f30c-4e33-ab19-bfd9f56eb817?SRC=VSIDE)
+This extension change the background image of editor.
