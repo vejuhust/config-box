@@ -30,3 +30,7 @@ A Sublime Text 2/3 plugin to see git diff in gutter.
 
 ### [IMESupport](https://packagecontrol.io/packages/IMESupport)
 Resolve a problem that IME composition window can not be displayed correctly on Windows. For Chinese IME, [微软必应输入法](http://bing.msn.cn/pinyin/) works well with this plugin.
+
+### [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
+Bracket and tag highlighter for Sublime Text.
+
