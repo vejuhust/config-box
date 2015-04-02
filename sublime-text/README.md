@@ -36,3 +36,6 @@ Bracket and tag highlighter for Sublime Text.
 
 ### [All Autocomplete](https://packagecontrol.io/packages/All%20Autocomplete)
 Extend Sublime Text auto-completion to find matches in all open files of the current window.
+
+### [Terminal](https://packagecontrol.io/packages/Terminal)
+Launch terminals from the current file or the root project folder.
