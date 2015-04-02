@@ -35,4 +35,4 @@ Resolve a problem that IME composition window can not be displayed correctly on 
 Bracket and tag highlighter for Sublime Text.
 
 ### [All Autocomplete](https://packagecontrol.io/packages/All%20Autocomplete)
-Extend Sublime Text autocompletion to find matches in all open files of the current window.
+Extend Sublime Text auto-completion to find matches in all open files of the current window.
