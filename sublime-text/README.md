@@ -41,8 +41,11 @@ Extend Sublime Text auto-completion to find matches in all open files of the cur
 Launch terminals from the current file or the root project folder.
 
 ### [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
-Interactive code linting framework for Sublime Text 3.
-Install linter manually for particular languages:
+Interactive code linting framework for Sublime Text 3. linters should be installed manually for particular languages:
 ```
 SublimeLinter-cpplint
 ```
+
+### [Sublimerge Pro](https://packagecontrol.io/packages/Sublimerge%20Pro)
+The professional, side-by-side tool to diff and merge files and directories right in Sublime Text. Supports Git, SVN and Mercurial.
+
