@@ -39,3 +39,10 @@ Extend Sublime Text auto-completion to find matches in all open files of the cur
 
 ### [Terminal](https://packagecontrol.io/packages/Terminal)
 Launch terminals from the current file or the root project folder.
+
+### [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
+Interactive code linting framework for Sublime Text 3.
+Install linter manually for particular languages:
+```
+SublimeLinter-cpplint
+```
