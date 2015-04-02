@@ -54,4 +54,4 @@ docs/_build/
 target/
 
 # Sublime Text
-*.sublime-*
+*.sublime-workspace
