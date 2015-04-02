@@ -1,0 +1,29 @@
+{
+    "user": {
+        "linters": {
+            "cpplint": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "filter": ""
+            },
+            "jshint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "python_paths": {
+            "linux": [],
+            "osx": [],
+            "windows": [
+                "C:\\Python34"
+            ]
+        }
+    }
+}
