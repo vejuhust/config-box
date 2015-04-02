@@ -48,4 +48,3 @@ SublimeLinter-cpplint
 
 ### [Sublimerge Pro](https://packagecontrol.io/packages/Sublimerge%20Pro)
 The professional, side-by-side tool to diff and merge files and directories right in Sublime Text. Supports Git, SVN and Mercurial.
-
