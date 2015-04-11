@@ -44,6 +44,7 @@
 	so = show
 	sr = remote show origin
 	st = status
+	v = version
 [push]
 	default = simple
 [pull]
