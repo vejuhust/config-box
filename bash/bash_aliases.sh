@@ -46,5 +46,14 @@ alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../../'
 
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -lashF'
+alias ls='ls --color=auto'
+
 alias json="python -mjson.tool"
 alias upgrade='sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove -y'
