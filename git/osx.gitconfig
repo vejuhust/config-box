@@ -1,0 +1,57 @@
+[user]
+	name = Wei Ye
+	email = vejuhust@gmail.com
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[color]
+	ui = true
+[core]
+	editor = vim
+	autocrlf = input
+[help]
+	autocorrect = 1
+[merge]
+	tool = vimdiff
+[alias]
+	b = branch
+	ba = branch -a
+	bd = branch -d
+	c = clone
+	ci = commit
+	cia = commit -a
+	ciam = commit -a -m
+	co = checkout
+	cob = checkout -b
+	com = checkout master
+	d = diff
+	ds = diff --staged
+	h = help
+	la = log --pretty=format:'%h %ad - [%an] %s' --graph
+	lg = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	mg = merge
+	mgn = merge --no-ff
+	mgnm = merge --no-ff -m
+	pl = pull
+	ps = push
+	psa = push --recurse-submodules=on-demand
+	s = status -s
+	so = show
+	sr = remote show origin
+	st = status
+	v = version
+[push]
+	default = simple
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
