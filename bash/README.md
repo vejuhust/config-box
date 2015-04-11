@@ -78,6 +78,6 @@ fi
 
 Overwrite local `~/.bash_aliases`:
 ```bash
-curl -s https://raw.githubusercontent.com/vejuhust/config-box/master/linux/bash_aliases.sh > ~/.bash_aliases
+curl -s https://raw.githubusercontent.com/vejuhust/dotfiles/master/bash/bash_aliases.sh > ~/.bash_aliases
 ```
 
