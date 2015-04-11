@@ -19,24 +19,31 @@
 [merge]
 	tool = vimdiff
 [alias]
-	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
-	la = log --pretty=format:'%h %ad - [%an] %s' --graph
-	st = status
+	b = branch
+	ba = branch -a
+	bd = branch -d
+	c = clone
 	ci = commit
 	cia = commit -a
+	ciam = commit -a -m
 	co = checkout
-	br = branch
-	d = diff
-	ds = diff --staged
-	sr = remote show origin
-	lg = log --graph --decorate --pretty=oneline --abbrev-commit --all
-	s = status -s
-	bra = branch -a
-	pushall = push --recurse-submodules=on-demand
-	mg = merge
-	mgn = merge --no-ff
 	cob = checkout -b
 	com = checkout master
+	d = diff
+	ds = diff --staged
+	h = help
+	la = log --pretty=format:'%h %ad - [%an] %s' --graph
+	lg = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	mg = merge
+	mgn = merge --no-ff
+	mgnm = merge --no-ff -m
+	pl = pull
+	ps = push
+	psa = push --recurse-submodules=on-demand
+	s = status -s
+	so = show
+	sr = remote show origin
+	st = status
 [push]
 	default = simple
 [pull]
