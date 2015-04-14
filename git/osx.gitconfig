@@ -28,6 +28,7 @@
 	ci = commit
 	cia = commit -a
 	ciam = commit -a -m
+	cim = commit -m
 	cn = clean -xnd
 	co = checkout
 	cob = checkout -b
