@@ -14,4 +14,4 @@
 
 * **Version**: git version 1.9.5.github.0
 * **Export**: `cp ~/.gitconfig win.gitconfig`
-* **Import**: `cp osx.gitconfig ~/.gitconfig`
+* **Import**: `cp win.gitconfig ~/.gitconfig`
