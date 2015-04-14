@@ -1,0 +1,40 @@
+[user]
+	name = Wei Ye
+	email = vejuhust@gmail.com
+[color]
+	ui = true
+[core]
+	editor = subl -w
+	autocrlf = true
+[help]
+	autocorrect = 1
+[merge]
+	tool = subl -w
+[push]
+	default = simple
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
+[alias]
+	la = log --pretty=format:'%h %ad - [%an] %s' --graph
+	lg = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	s = status -s
+	st = status
+	sr = remote show origin
+	br = branch
+	bra = branch -a
+	co = checkout
+	ci = commit
+	cia = commit -a
+	d = diff
+	ds = diff --staged
+	pushall = push --recurse-submodules=on-demand
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
