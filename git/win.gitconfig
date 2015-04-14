@@ -4,12 +4,12 @@
 [color]
 	ui = true
 [core]
-	editor = subl -w
+	editor = vim
 	autocrlf = true
 [help]
 	autocorrect = 1
 [merge]
-	tool = subl -w
+	tool = vim
 [push]
 	default = simple
 [pull]
