@@ -1,0 +1,67 @@
+[user]
+	name = Wei Ye
+	email = vejuhust@gmail.com
+[color]
+	ui = true
+[core]
+	editor = vim
+	autocrlf = input
+[help]
+	autocorrect = 1
+[merge]
+	tool = vimdiff
+[alias]
+	a = add
+	aa = add -A
+	b = branch
+	ba = branch -a
+	bd = branch -d
+	c = clone
+	ci = commit
+	cia = commit -a
+	ciam = commit -a -m
+	cim = commit -m
+	cn = clean -xnd
+	co = checkout
+	cob = checkout -b
+	cof = checkout --
+	com = checkout master
+	d = diff
+	ds = diff --staged
+	f = fetch
+	h = help
+	i = init
+	la = log --pretty=format:'%h %ad - [%an] %s' --graph
+	lg = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	lr = log --walk-reflogs
+	ls = ls-files
+	lsg = ls-files --other --ignored --exclude-standard
+	mg = merge
+	mgn = merge --no-ff
+	mgnm = merge --no-ff -m
+	mgt = mergetool
+	pl = pull
+	ps = push
+	psa = push --recurse-submodules=on-demand
+	rb = rebase
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbi = rebase -i
+	rbs = rebase --skip
+	rl = reflog
+	rs = reset
+	rsh = reset --hard
+	rss = reset --soft
+	rt = remote
+	s = status -s
+	sm = submodule
+	so = show
+	sr = remote show origin
+	st = status
+	t = tag
+	ta = tag -a
+	v = version
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
