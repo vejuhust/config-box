@@ -15,3 +15,12 @@
 * **Version**: git version 1.9.5.github.0
 * **Export**: `cp ~/.gitconfig win.gitconfig`
 * **Import**: `cp win.gitconfig ~/.gitconfig`
+
+
+## BeagleBone Debian Image
+
+* **Version**: git version 1.7.10.4
+* **Export**: `cp ~/.gitconfig bbb.gitconfig`
+* **Import**: 
+    - Local: `cp bbb.gitconfig ~/.gitconfig`
+    - Online: `curl -s https://raw.githubusercontent.com/vejuhust/dotfiles/master/git/bbb.gitconfig > ~/.gitconfig`
