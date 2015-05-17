@@ -7,7 +7,7 @@
 	editor = vim
 	autocrlf = true
 [help]
-	autocorrect = 1
+	autocorrect = 0
 [merge]
 	tool = vim
 [push]
@@ -22,6 +22,7 @@
 	b = branch
 	ba = branch -a
 	bd = branch -d
+	bD = branch -D
 	c = clone
 	ci = commit
 	cia = commit -a
@@ -49,6 +50,9 @@
 	pl = pull
 	ps = push
 	psa = push --recurse-submodules=on-demand
+	psaa = push --all
+	pso = push origin
+	pst = push --tags
 	rb = rebase
 	rba = rebase --abort
 	rbc = rebase --continue
@@ -59,6 +63,7 @@
 	rsh = reset --hard
 	rss = reset --soft
 	rt = remote
+	rtpo = remote prune origin
 	s = status -s
 	sm = submodule
 	so = show
