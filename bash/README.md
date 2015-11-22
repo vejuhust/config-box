@@ -97,3 +97,20 @@ Import **.gitconfig** file from GitHub:
 curl -s https://raw.githubusercontent.com/vejuhust/dotfiles/master/git/lin.gitconfig > ~/.gitconfig
 ```
 
+
+### SSoHH
+On the reporting server, execute:
+```bash
+cp ~/ssohh/client_set.sh /usr/share/nginx/ssohh/
+```
+
+Run this on the new Linux server:
+```bash
+cd /tmp; curl http://service.yewei.me/client_set.sh -O; chmod +x client_set.sh; ./client_set.sh l
+```
+
+Go back to the reporting server, clean up:
+```bash
+rm -f /usr/share/nginx/ssohh/client_set.sh
+```
+
