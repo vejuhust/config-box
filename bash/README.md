@@ -71,7 +71,7 @@ curl -s https://raw.githubusercontent.com/vejuhust/dotfiles/master/bash/bash_ali
 
 
 
-## Install Tools
+## Tools
 
 Consider mirror repositories in China, i.e. `vim /etc/apt/sources.list` -- e.g. [163](http://mirrors.163.com/.help/ubuntu.html)
 
@@ -84,3 +84,16 @@ apt-get install --assume-yes --force-yes vim git screen zip unzip p7zip-full ift
 ```bash
 apt-get install --assume-yes --force-yes gcc g++ build-essential python-dev python-pip python-setuptools python3-dev python3-pip python3-setuptools
 ```
+
+
+
+## Configuration
+
+### git
+Reference: https://github.com/vejuhust/dotfiles/tree/master/git
+
+Import **.gitconfig** file from GitHub: 
+```bash
+curl -s https://raw.githubusercontent.com/vejuhust/dotfiles/master/git/lin.gitconfig > ~/.gitconfig
+```
+
