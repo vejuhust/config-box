@@ -13,6 +13,7 @@
 [alias]
 	a = add
 	aa = add -A
+	ap = add -p
 	b = branch
 	ba = branch -a
 	bd = branch -d
@@ -29,9 +30,12 @@
 	com = checkout master
 	d = diff
 	ds = diff --staged
+	dw = diff -w
+	dW = diff -W
 	f = fetch
 	h = help
 	i = init
+	l = log
 	la = log --pretty=format:'%h %ad - [%an] %s' --graph
 	lg = log --graph --decorate --pretty=oneline --abbrev-commit --all
 	lr = log --walk-reflogs
@@ -59,6 +63,7 @@
 	rt = remote
 	rtpo = remote prune origin
 	s = status -s
+	sh = stash
 	sm = submodule
 	so = show
 	sr = remote show origin
