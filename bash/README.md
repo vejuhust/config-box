@@ -58,12 +58,12 @@ ssh root@"$REMOTESVR" "mkdir ~/.ssh/; cat /tmp/id_rsa.pub >> ~/.ssh/authorized_k
 
 ### Utility
 ```bash
-apt-get install --assume-yes --force-yes vim git screen unzip p7zip-full iftop vnstat fail2ban 
+apt-get install --assume-yes --force-yes vim git screen zip unzip p7zip-full iftop vnstat fail2ban 
 ```
 
 ### Developer
 ```bash
-apt-get install --assume-yes --force-yes gcc g++ build-essential python-dev python-pip python-setuptools
+apt-get install --assume-yes --force-yes gcc g++ build-essential python-dev python-pip python-setuptools python3-dev python3-pip python3-setuptools
 ```
 
 
