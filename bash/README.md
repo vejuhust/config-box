@@ -31,7 +31,7 @@ vim /etc/hostname
 
 #### OS X : bash
 ```bash
-REMOTESVR=192.168.158.132
+REMOTESVR=192.168.158.136
 ssh-keygen -t rsa -b 2048
 scp ~/.ssh/id_rsa.pub root@"$REMOTESVR":/tmp/id_rsa.pub
 ssh root@"$REMOTESVR" "mkdir ~/.ssh/; cat /tmp/id_rsa.pub >> ~/.ssh/authorized_keys"
@@ -39,7 +39,7 @@ ssh root@"$REMOTESVR" "mkdir ~/.ssh/; cat /tmp/id_rsa.pub >> ~/.ssh/authorized_k
 
 #### Linux : bash
 ```bash
-REMOTESVR=192.168.158.132
+REMOTESVR=192.168.158.136
 ssh-keygen -t rsa -b 2048
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@"$REMOTESVR"
 ```
@@ -47,24 +47,12 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub root@"$REMOTESVR"
 #### Windows : cmder with msysgit
 Install cmder: http://bliker.github.io/cmder/       
 ```bash
-REMOTESVR=192.168.158.132
+REMOTESVR=192.168.158.136
 ssh-keygen -t rsa -b 2048
 scp /c/Users/weye/.ssh/id_rsa.pub root@"$REMOTESVR":/tmp/id_rsa.pub
 ssh root@"$REMOTESVR" "mkdir ~/.ssh/; cat /tmp/id_rsa.pub >> ~/.ssh/authorized_keys"
 ```
 
-
-## Install Tools
-
-### Utility
-```bash
-apt-get install --assume-yes --force-yes vim git screen zip unzip p7zip-full iftop vnstat fail2ban 
-```
-
-### Developer
-```bash
-apt-get install --assume-yes --force-yes gcc g++ build-essential python-dev python-pip python-setuptools python3-dev python3-pip python3-setuptools
-```
 
 
 ## Aliases
@@ -81,3 +69,16 @@ Overwrite local `~/.bash_aliases`:
 curl -s https://raw.githubusercontent.com/vejuhust/dotfiles/master/bash/bash_aliases.sh > ~/.bash_aliases
 ```
 
+
+
+## Install Tools
+
+### Utility
+```bash
+apt-get install --assume-yes --force-yes vim git screen zip unzip p7zip-full iftop vnstat fail2ban 
+```
+
+### Developer
+```bash
+apt-get install --assume-yes --force-yes gcc g++ build-essential python-dev python-pip python-setuptools python3-dev python3-pip python3-setuptools
+```
