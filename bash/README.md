@@ -73,6 +73,8 @@ curl -s https://raw.githubusercontent.com/vejuhust/dotfiles/master/bash/bash_ali
 
 ## Install Tools
 
+Consider mirror repositories in China, i.e. `vim /etc/apt/sources.list` -- e.g. [163](http://mirrors.163.com/.help/ubuntu.html)
+
 ### Utility
 ```bash
 apt-get install --assume-yes --force-yes vim git screen zip unzip p7zip-full iftop vnstat fail2ban 
