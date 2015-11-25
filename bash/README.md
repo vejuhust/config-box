@@ -106,7 +106,7 @@ cp ~/ssohh/client_set.sh /usr/share/nginx/ssohh/
 
 Run this on the new Linux server:
 ```bash
-cd /tmp; curl http://service.yewei.me/client_set.sh -O; chmod +x client_set.sh; ./client_set.sh l
+cd /tmp; curl http://service.yewei.me/client_set.sh -O; chmod +x client_set.sh; ./client_set.sh l; crontab -e
 ```
 
 Go back to the reporting server, clean up:
