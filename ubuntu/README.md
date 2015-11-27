@@ -1,7 +1,12 @@
-# Linux Server Setup
+# Ubuntu Linux Server Setup
 
 
 ## SSH
+
+Set password for **root**:
+```bash
+sudo passwd root
+```
 
 ### Server Setup
 Install OpenSSH server:     
@@ -97,8 +102,14 @@ Import **.gitconfig** file from GitHub:
 curl -s https://raw.githubusercontent.com/vejuhust/dotfiles/master/git/lin.gitconfig > ~/.gitconfig
 ```
 
+Generate a new SSH key for GitHub:
+```bash
+ssh-keygen -t rsa -b 4096 -C "$(git config --global user.email)"
+```
 
 ### SSoHH
+Reference: https://github.com/vejuhust/Server-Status-over-HTTP-HEAD
+
 On the reporting server, execute:
 ```bash
 cp ~/ssohh/client_set.sh /usr/share/nginx/ssohh/
