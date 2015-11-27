@@ -1,7 +1,12 @@
-# Linux Server Setup
+# Ubuntu Linux Server Setup
 
 
 ## SSH
+
+Set password for **root**:
+```bash
+sudo passwd root
+```
 
 ### Server Setup
 Install OpenSSH server:     
