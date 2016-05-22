@@ -7,11 +7,11 @@ function pwdgen() {
     else
         count=$1
     fi
-    cat /dev/urandom | tr -dc "a-zA-Z0-9" | fold -w 16 | head -n $count
+    cat /dev/urandom | tr -dc "a-km-zA-HJ-Z02-9" | fold -w 16 | grep -E "[[:digit:]]" | grep -E "[[:lower:]]" | grep -E "[[:upper:]]" | head -n $count
 }
 
 function pwdgeni() {
-    cat /dev/urandom | tr -dc "a-zA-Z0-9" | fold -w 16 | head -n 5000 | grep -i "$1" | head -n 10
+    cat /dev/urandom | tr -dc "a-km-zA-HJ-Z02-9" | fold -w 16 | grep -E "[[:digit:]]" | grep -E "[[:lower:]]" | grep -E "[[:upper:]]" | head -n 5000 | grep -i "$1" | head -n 10
 }
 
 extract() {
