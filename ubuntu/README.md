@@ -32,7 +32,14 @@ Rename this server if necessary:
 vim /etc/hostname
 ```
 
+Remove deprecated hostname in ~/.ssh/known_hosts if necessary: 
+```bash
+ssh-keygen -R DEPRECATED_HOSTNAME
+```
+
 ### Password-free Login
+
+Don't forget to create an alias for the server on local machine by adding a line in `/etc/hosts`.
 
 #### OS X : bash
 ```bash
@@ -82,7 +89,7 @@ Consider mirror repositories in China, i.e. `vim /etc/apt/sources.list` -- e.g. 
 
 ### Utility
 ```bash
-apt-get install --assume-yes --force-yes vim git screen zip unzip p7zip-full iftop vnstat fail2ban 
+apt-get install --assume-yes --force-yes vim git screen zip unzip p7zip-full iftop vnstat fail2ban lynx
 ```
 
 ### Developer
