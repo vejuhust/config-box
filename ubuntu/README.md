@@ -14,7 +14,7 @@ Install OpenSSH server:
 sudo apt-get install openssh-server
 ```
 
-Edit `/etc/ssh/sshd_config` to permit root to login via SSH:
+Edit `/etc/ssh/sshd_config` if you want to login as **root** with password via SSH:
 ```
 # Authentication:
 LoginGraceTime 120
@@ -49,11 +49,24 @@ scp ~/.ssh/id_rsa.pub root@"$REMOTESVR":/tmp/id_rsa.pub
 ssh root@"$REMOTESVR" "mkdir ~/.ssh/; cat /tmp/id_rsa.pub >> ~/.ssh/authorized_keys"
 ```
 
+Or use this if **root** isn't allowed to login with password:
+```bash
+REMOTESVR=168.63.206.45
+scp ~/.ssh/id_rsa.pub azureuser@"$REMOTESVR":/tmp/id_rsa.pub
+ssh -t azureuser@"$REMOTESVR" "sudo mkdir /root/.ssh/; sudo cat /tmp/id_rsa.pub | sudo tee -a /root/.ssh/authorized_keys > /dev/null"
+```
+
 #### Linux : bash
 ```bash
 REMOTESVR=192.168.158.136
 ssh-keygen -t rsa -b 2048
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@"$REMOTESVR"
+```
+
+Or try this if **root** isn't allowed to login with password:
+```bash
+REMOTESVR=168.63.206.45
+cat ~/.ssh/id_rsa.pub | ssh azureuser@"$REMOTESVR" "sudo mkdir /root/.ssh/; sudo tee -a /root/.ssh/authorized_keys > /dev/null"
 ```
 
 #### Windows : cmder with msysgit
