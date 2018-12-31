@@ -43,6 +43,7 @@
 	f = fetch
 	h = help
 	i = init
+	ignore = update-index --skip-worktree
 	l = log
 	la = log --pretty=format:'%h %ad - [%an] %s' --graph
 	lg = log --graph --decorate --pretty=oneline --abbrev-commit --all
@@ -52,9 +53,14 @@
 	mg = merge
 	mgn = merge --no-ff
 	mgnm = merge --no-ff -m
+	mgs = merge --squash
 	mgt = mergetool
+	notice = update-index --no-skip-worktree
 	pl = pull
+	plo = pull origin
+	plom = pull origin master
 	ps = push
+	ps1 = push --set-upstream origin
 	psa = push --recurse-submodules=on-demand
 	psaa = push --all
 	pso = push origin
