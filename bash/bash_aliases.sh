@@ -47,6 +47,9 @@ alias ....='cd ../../../../'
 alias .....='cd ../../../../../'
 
 alias g='git'
+alias d='docker'
+alias t='tmux'
+alias ta='tmux attach -t $*'
 
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
